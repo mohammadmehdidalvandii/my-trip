@@ -1,8 +1,11 @@
 import React from 'react'
+import TopBar from './components/modules/TopBar/TopBar'
 
 const App:React.FC= ()=>{
   return (
-   <div>app</div>
+   <>
+   <TopBar/>
+   </>
   )
 }
 
