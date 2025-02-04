@@ -5,3 +5,7 @@ export type Route = {
     element:React.ReactElement;
 }
 
+export type TitleType={
+    title:string,
+    text:string
+}
